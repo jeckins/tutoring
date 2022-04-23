@@ -1,5 +1,15 @@
 this is just a test file
 
 I have modified this PARTICULAR file
+<<<<<<< HEAD
 
 Majid
+=======
+Hi this Alex, I ve just made my changes to this file...
+New changes on Saturday..11.15 am
+D
+Cmassih
+B
+talha
+
+>>>>>>> 5380903cd277911d1ee2fb95c7c89a083e072fe8
