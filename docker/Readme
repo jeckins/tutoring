@@ -1,0 +1,15 @@
+#build the image
+docker build -t my_to_do_list_app .
+
+#start the container
+docker run -dp 3000:3000 my_to_do_list_app
+
+#access the app
+http://localhost:3000
+
+#push the docker image
+docker tag local-image:tagname new-repo:tagname
+docker push new-repo:tagname
+
+docker tag my_to_do_list_app:app_v1 jeckins123/to_do_list_app:app_v1
+docker push jeckins123/to_do_list_app:app_v1
